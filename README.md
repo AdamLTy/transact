@@ -35,7 +35,7 @@ We run the experiments on a customized 4080 Super GPU server with 32GB memory (v
 Requirements:
 
 - fuxictr==2.3.7
-- numpy==2.2.3
+- numpy==1.26.4
 - pandas==2.2.3
 - scikit_learn==1.4.0
 - torch==1.13.1+cu117
