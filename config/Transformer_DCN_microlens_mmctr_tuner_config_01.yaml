@@ -21,7 +21,7 @@ dataset_config:
             - {name: item_emb_d128, active: True, dtype: float, type: embedding, source: item, embedding_dim: 128}
         label_col: {name: label, dtype: float}
 
-tuner_space: # dropout-
+tuner_space:
     dcn_cross_layers: 3
     dcn_hidden_units: [[1024, 512, 256]]
     mlp_hidden_units: [[64, 32]]
@@ -31,7 +31,7 @@ tuner_space: # dropout-
     net_regularizer: 0
     num_heads: 1
     transformer_layers: 2
-    transformer_dropout: 0.1
+    transformer_dropout: 0.2
     dim_feedforward: 256
     learning_rate: 5.e-4
     first_k_cols: 16
