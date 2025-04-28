@@ -27,7 +27,7 @@ DIN_default: # This is a config template
     dnn_hidden_units: [1024, 512, 256]
     dnn_activations: ReLU
     attention_hidden_units: [512, 256]
-    attention_hidden_activations: Dice
+    attention_hidden_activations: ReLU
     attention_output_activation: null
     attention_dropout: 0.1
     din_use_softmax: False
