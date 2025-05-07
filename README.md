@@ -1,4 +1,8 @@
-# Task2 Solution of WWW 2025 MMCTR Challenge from Team momo
+# 1st Place Solution of WWW 2025 EReL@MIR Workshop Multimodal CTR Prediction Challenge from     Team momo
+
+We have released our model checkpoint in [Huggingface](https://huggingface.co/pinskyrobin/WWW2025_MMCTR_momo).
+
+Our technical report is available at [arXiv](https://arxiv.org/abs/2505.03543).
 
 The WWW 2025 Multimodal CTR Prediction Challenge: https://www.codabench.org/competitions/5372/
 
